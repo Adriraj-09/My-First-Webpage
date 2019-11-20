@@ -1,0 +1,96 @@
+body{
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b0d2cf;
+    margin-left: 9%;
+}
+table {
+    border: 3px rgb(165, 148, 148);
+    margin-left: 5%;
+    background-color: rgb(46, 46, 48);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    outline: rgb(226, 140, 208) 10px;
+}
+    input {
+        width: 60px;
+        height:40px;
+        margin:10px;
+        cursor:pointer;
+        text-align: center;
+        text-shadow: 2px 2px 5px #495069;
+        background-color: blanchedalmond;
+        font-size: 25px;
+        font-family: 'Orbitron', sans-serif;
+        border-radius: 5px;
+        }
+
+    input:hover {
+        border: 0 solid #000;
+        color: #495069;
+        background-color: blanchedalmond;
+        border-radius: 5px;
+        width: 60px;
+        height: 40px;
+        float: left;
+        margin: 10px;
+        font-size: 20px;
+        box-shadow: 0 4px #b0d2cf;
+    } 
+    
+    input:active {
+        top: 4px;
+        border: 0 solid #000;
+        color: #495069;
+        background-color: #fff;
+        border-radius: 4px;
+        width: 60px;
+        height: 50px;
+        float: left;
+        margin: 5px;
+        font-size: 20px;
+        box-shadow: none;
+    }
+
+    #display {
+        width: 265px;
+        max-width: 270px;
+        font-size: 26px;
+        text-align: center;
+        background-color: #bfe0a9;
+        float: left;
+    }
+
+      #display:hover {
+        width: 270px;
+        font-size: 26px;
+        text-align: center;
+        background-color: #bfe0a9;
+        box-shadow: 0 4px rgba(0,0,0,0.2);
+      }
+
+    .operator {
+        background-color: rgb(141, 235, 235);
+        position: relative;
+    }
+
+    .operator:hover {
+        background-color: rgb(161, 231, 231);
+        background-blend-mode: color-dodge;
+        box-shadow: #b0d2cf;
+    }
+
+    #doit {
+        background-color: rgb(190, 99, 117);
+        float: left;
+        position: relative;
+        display: block;
+    }
+
+    
